@@ -35,3 +35,42 @@ li:hover
 {
     display: block;
 }
+.image
+{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    position: relative;
+}
+
+.arrow
+{
+    position: absolute;
+    padding: 10px;
+    border-radius: 100%
+}
+.arrow:hover
+{
+    background-color: silver
+}
+img
+{
+    width: 100%;
+    height: 600px;
+}
+
+.left
+{
+    top: 50%;
+    left: 5%;
+    transform: translateX(-50%)
+}
+
+
+.right
+{
+    top: 50%;
+    right: 5%;
+    transform: translateX(-50%)
+
+}
